@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    opacity: 0px;
+}
+nav .logo{
+    margin-left: 50px;
+}
+nav .logo img{
+    width: 92px;
+}
+nav .list ul{
+    width: 350px;
+    height: 23px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+nav .list a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero .info{
+    text-align: center;
+}
+.hero .info h1{
+    font-weight: 600;
+    font-size: 65px;
+    color: white;
+    padding-bottom: 10px;
+}
+.hero .info p{
+    color: white;
+}
+.hero .visit{
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 20px ;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+.hero .visit:hover{
+    border:1px solid #f44336 ;
+    background-color: #f44336;
+    cursor: pointer;
+}
+nav .logo:hover{
+    cursor: pointer;
+}
+.list .active1:hover{
+    border-bottom: 2px solid #f44336;
+    padding-bottom: 5px;
+}
+.list .active2:hover{
+    border-bottom: 2px solid #f44336;
+    padding-bottom: 5px;
+}
+.container1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.container1 p{
+    padding-top: 15px;
+    
+}
+#course .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container .intermediate{
+    width: 30%;
+    background-color: #fff3f3;
+    text-align: center;
+    padding: 35px 35px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.container .degree{
+    width: 30%;
+    background-color:  #fff3f3;
+    text-align: center;
+    padding: 35px 35px;
+    border-radius: 5px;
+}
+.container .graduation{
+    width: 30%;
+    background-color: #fff3f3;
+    text-align: center;
+    padding: 35px 35px;
+    border-radius: 5px;
+}
+.container .intermediate h2 , .container .degree h2 , .container .graduation h2{
+    padding-bottom: 15px;
+}
+#global{
+    background-color:#eee;
+}
+.containerglobal{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 30px;
+}
+.campus h2{
+    font-size: 35px;
+}
+.london{
+    background-image: url(../img/london.png);
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    background-size: cover;
+}
+.newyork{
+    background-image: url(../img/newyork.png);
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.washington{
+    background-image: url(../img/washington.png);
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    background-size: cover;
+}
+.containerglobal .london p{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+}
+.containerglobal .london p:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226, 0, 0, 0.7);
+    border-radius: 5px;
+}
+.containerglobal .newyork p{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+    border-radius: 5px;
+}
+.containerglobal .newyork p:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226, 0, 0, 0.7);
+    border-radius: 5px;
+}
+.containerglobal .washington p{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+}
+.containerglobal .washington p:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226, 0, 0, 0.7);
+}
+#global .campus{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.containerFacilitiesr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.library img , .basketball img , .cafeteria img{
+    width:330px ;
+    height: 250px;
+    border-radius: 5px;
+}
+.facilitiesclass{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+.facilitiesclass h2{
+    font-size: 35px;
+}
+.basketball{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.library h3 , .basketball h3 , .cafeteria h3{
+    padding: 10px 0;
+    font-size: 20px;
+}
+#student{
+    background-color: #eee;
+}
+.containerstudent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 45px;
+}
+.christineimg img , .davidimg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.studentsays{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.studentsays h2{
+    font-size: 40px;
+}
+.christine{
+    width: 40%;
+    display: flex;
+    padding: 30px 30px;
+    background-color: #fff3f3;
+}
+.david{
+    width: 40%;
+    display: flex;
+    padding: 30px 30px;
+    background-color: #fff3f3;
+}
+.davidimg , .christineimg{
+    padding-right: 20px;
+}
+.info i{
+    color: red;
+}
+.page{
+    width: 75%;
+    height: 355px;
+    background-image:linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)),url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.page .onlinecourse{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.onlinecourse h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.onlinecourse .btn{
+    color: white;
+    padding: 10px 10px;
+    margin: auto;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 150px;
+    border-radius: 2px;
+}
+.onlinecourse .btn:hover{
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    cursor: pointer;
+}
+footer{
+    background-color: #eee;
+}
+.about{
+    width: 80%;
+    height: 300px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+}
+.about p{
+    padding: 20px 0;
+}
+.about i{
+    padding-top: 20px;
+    color: #f44336;
+}
+.twitter{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.instagram{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.about i:hover{
+    cursor: pointer;
+}
